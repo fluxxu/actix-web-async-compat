@@ -1,10 +1,14 @@
 [package]
 name = "actix-web-async-compat"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Flux Xu <fluxxu@gmail.com>"]
 edition = "2018"
 description = "Actix web 1.x async/await shim."
 license = "MIT"
+repository = "https://github.com/fluxxu/actix-web-async-compat"
+keywords = ["actix", "web", "async", "await"]
+readme = "README.md"
+documentation = "https://docs.rs/actix-web-async-compat"
 
 [dependencies]
 futures-preview = { version = "0.3.0-alpha.17", features = ["compat"] }
